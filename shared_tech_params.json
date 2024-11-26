@@ -1,0 +1,20 @@
+{
+    "assets": {
+        "AAD": {
+            "name": "logo",
+            "url": "//meta-q.cdn.bubble.io/f1719156306051x726350437263171100/unnamed.jpg"
+        },
+        "AAR": {
+            "name": "CoinbaseWalletProvider",
+            "url": "//meta-q.cdn.bubble.io/f1725134186435x351750394257706050/CoinbaseWalletProvider.js"
+        },
+        "AAS": {
+            "name": "CoinbaseWalletProvider",
+            "url": "//meta-q.cdn.bubble.io/f1725134304534x218381575447554430/CoinbaseWalletProvider.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    }
+}

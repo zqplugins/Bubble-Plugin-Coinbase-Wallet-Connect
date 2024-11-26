@@ -1,0 +1,100 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "Coinbase Wallet",
+    "events": {
+        "AAK": {
+            "caption": "Error",
+            "name": "error"
+        },
+        "AAL": {
+            "caption": "Connected",
+            "name": "connected"
+        },
+        "AAM": {
+            "caption": "Disconnected",
+            "name": "disconnected"
+        },
+        "AAP": {
+            "caption": "Chain Changed",
+            "name": "chain_changed"
+        }
+    },
+    "fields": {
+        "AAE": {
+            "caption": "App Name",
+            "editor": "DynamicValue",
+            "name": "app_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "appChainIds",
+            "default_val": "[1,137]",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "chains",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "appLogoUrl",
+            "editor": "Image",
+            "name": "applogourl",
+            "rank": 2,
+            "value": "image"
+        },
+        "AAX": {
+            "caption": "Provider options",
+            "default_val": "all",
+            "doc": "Determines which connection options users will see. Defaults to all.",
+            "editor": "Dropdown",
+            "name": "provider_options",
+            "options": "all,smartWalletOnly,eoaOnly",
+            "rank": 3
+        }
+    },
+    "icon": "ion-social-usd",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "Address ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "address_id",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Chain ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "chain_id",
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Is Connected",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_connected",
+            "value": "boolean"
+        },
+        "AAJ": {
+            "caption": "Error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        }
+    }
+}
